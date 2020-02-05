@@ -1,0 +1,51 @@
+{
+  "name": "hypernova-start",
+  "version": "1.0.0",
+  "description": "An example of hypernova app",
+  "main": "src/hypernova/index.js",
+  "scripts": {
+    "build:hypernova": "webpack --env.platform=hypernova",
+    "build:client": "webpack --env.platform=web",
+    "build:server": "webpack --env.platform=server",
+    "build": "npm run build:hypernova && npm run build:server && npm run build:client",
+    "start:hypernova": "node dist/hypernova",
+    "start:server": "node dist/server",
+    "start": "npm run build && concurrently 'npm run start:hypernova' 'npm run start:server'"
+  },
+  "keywords": [
+    "hypernova",
+    "demo",
+    "react",
+    "vue",
+    "micro-frontends"
+  ],
+  "author": "mat3e",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@apollo/react-ssr": "^3.1.3",
+    "@babel/runtime": "^7.8.4",
+    "apollo-boost": "^0.4.7",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "hypernova": "^2.5.0",
+    "hypernova-client": "^1.1.1",
+    "hypernova-react": "^2.1.0",
+    "hypernova-vue": "^3.0.4",
+    "node-fetch": "^2.6.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "vue": "^2.6.11",
+    "vue-server-renderer": "^2.6.11"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

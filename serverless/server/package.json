@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Server on AWS Lambda for calling Hypernova",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline start --port 3001"
+  },
+  "keywords": [
+    "serverless",
+    "hypernova",
+    "micro-frontends"
+  ],
+  "author": "mat3e",
+  "license": "MIT",
+  "dependencies": {
+    "hypernova-client": "^1.1.1",
+    "serverless": "^1.62.0",
+    "serverless-offline": "^5.12.1"
+  }
+}

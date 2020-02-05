@@ -1,0 +1,40 @@
+{
+  "name": "hypernova-start",
+  "version": "1.0.0",
+  "description": "An example of hypernova app",
+  "main": "src/hypernova/index.js",
+  "scripts": {
+    "build:hypernova": "webpack --env.platform=hypernova",
+    "build:client": "webpack --env.platform=web",
+    "build:server": "webpack --env.platform=server",
+    "build": "npm run build:hypernova && npm run build:server && npm run build:client",
+    "start:hypernova": "node dist/hypernova",
+    "start:server": "node dist/server",
+    "start": "npm run build && concurrently 'npm run start:hypernova' 'npm run start:server'"
+  },
+  "keywords": [
+    "hypernova",
+    "demo",
+    "react"
+  ],
+  "author": "mat3e",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "hypernova": "^2.5.0",
+    "hypernova-client": "^1.1.1",
+    "hypernova-react": "^2.1.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

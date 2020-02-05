@@ -1,5 +1,7 @@
 # Server-side rendering micro-frontends
 
+Presentation: [Server-side rendered micro-frontends on AWS Lambda](https://github.com/mat3e/talks/tree/master/docs/micro-frontends) [[slides]](https://mat3e.github.io/talks/micro-frontends/att)
+
 1. `react-ssr` - standard React + Express example. No [next.js](https://nextjs.org/)
 2. `hypernova` - [AirBnB Hypernova](https://github.com/airbnb/hypernova) for a simple React app (similar to the previous example)
 3. `hypernova-graphql` - ambitious example with [Apollo GraphQL](https://www.apollographql.com/docs/react/api/react-ssr/) and React. Consuming [The Rick and Morty API](https://rickandmortyapi.com/)

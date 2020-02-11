@@ -1,4 +1,4 @@
-# Server-side rendering micro-frontends
+# Server-side rendering - micro-frontends
 
 Presentation: [Server-side rendered micro-frontends on AWS Lambda](https://github.com/mat3e/talks/tree/master/docs/micro-frontends) [[slides]](https://mat3e.github.io/talks/micro-frontends/att)
 

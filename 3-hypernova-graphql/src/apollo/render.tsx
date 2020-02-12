@@ -2,7 +2,7 @@ import hypernova, { serialize, load } from 'hypernova';
 import React, { ComponentType } from 'react';
 import ReactDOM from 'react-dom';
 import { renderToString, renderToStaticMarkup } from 'react-dom/server';
-import { renderToStringWithData, getDataFromTree } from '@apollo/react-ssr';
+import { getDataFromTree } from '@apollo/react-ssr';
 import { NormalizedCacheObject } from 'apollo-cache-inmemory';
 import { createClient, ApolloClient } from './client';
 import { PropsWithClient } from './withApollo';

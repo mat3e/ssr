@@ -3,14 +3,6 @@ const { renderVue } = require('hypernova-vue/server');
 const hypernova = require('hypernova-lambda');
 const { renderReactWithApollo } = require('./src/apollo/render');
 
-module.exports.script = async (event) => ({
-  statusCode: 200,
-  headers: {
-    'Content-Type': 'application/javascript',
-  },
-  body: fs.readFileSync('dist/public/script.js').toString()
-});
-
 module.exports.batch = (event, context, callback) => {
   hypernova(
     event,
@@ -29,6 +21,15 @@ module.exports.batch = (event, context, callback) => {
     callback
   );
 };
+
+// FIXME: demo only! Static content should be handled using storage or CDN service!
+module.exports.script = async (event) => ({
+  statusCode: 200,
+  headers: {
+    'Content-Type': 'application/javascript',
+  },
+  body: fs.readFileSync('dist/public/script.js').toString()
+});
 
 function renderComponent(renderFn, componentName) {
   return renderFn(

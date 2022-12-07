@@ -36,7 +36,7 @@
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "awesome-typescript-loader": "^5.2.1",
-    "serverless": "^1.62.0",
+    "serverless": "^3.25.1",
     "serverless-offline": "^5.12.1",
     "serverless-webpack": "^5.3.1",
     "typescript": "^3.7.5",

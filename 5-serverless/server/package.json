@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "hypernova-client": "^1.1.1",
-    "serverless": "^1.62.0",
+    "serverless": "^3.25.1",
     "serverless-offline": "^5.12.1"
   }
 }

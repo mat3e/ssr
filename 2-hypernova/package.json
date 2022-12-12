@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "concurrently": "^5.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hypernova": "^2.5.0",
     "hypernova-client": "^1.1.1",
     "hypernova-react": "^2.1.0",

@@ -27,7 +27,7 @@
     "@babel/runtime": "^7.8.4",
     "apollo-boost": "^0.4.7",
     "concurrently": "^5.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^14.5.8",
     "hypernova": "^2.5.0",
     "hypernova-client": "^1.1.1",

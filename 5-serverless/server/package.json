@@ -16,6 +16,6 @@
   "dependencies": {
     "hypernova-client": "^1.1.1",
     "serverless": "^1.62.0",
-    "serverless-offline": "^5.12.1"
+    "serverless-offline": "^12.0.4"
   }
 }

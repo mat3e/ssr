@@ -1,6 +1,6 @@
 # Server-side rendering - micro-frontends
 
-Presentation: [Server-side rendered micro-frontends on AWS Lambda](https://github.com/mat3e/talks/tree/master/docs/micro-frontends) [[slides]](https://mat3e.github.io/talks/micro-frontends/att)
+Presentation: [Server-side rendered micro-frontends on AWS Lambda](https://github.com/mat3e/talks/tree/master/docs/micro-frontends) [[slides](https://mat3e.github.io/talks/micro-frontends/att)] [[recording](https://www.youtube.com/watch?v=bOkZ7327FLg)]
 
 1. `react-ssr` - standard React + Express example. No [next.js](https://nextjs.org/)
 2. `hypernova` - [AirBnB Hypernova](https://github.com/airbnb/hypernova) for a simple React app (similar to the previous example)
